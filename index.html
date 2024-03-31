@@ -5,31 +5,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Islan</title>
         <script src="https://cdn.tailwindcss.com"></script>
-        <script>
-            tailwind.config = {
-                theme: {
-                    extend: {
-                        colors: {
-                            hotpink: '#FF69B4'
-                        }
-                    }
-                }
-            }
-        </script>
     </head>
     <body class="max-w-5xl mx-auto h-screen  flex flex-col">
-        <main class="p-2 flex-1">
-            <section class="mt-2">
+        <main class="p-2 flex-1 bg-zinc-100">
+            <section class="mt-4">
                 <h2 class="text-2xl font-semibold">Sobre Mim</h2>
-                <p>Olá. Meu nome é Islan Victhor, tenho 24 anos, sou estudande de Ciência da Computação. Atualmente estou à procura de Estágio como Desenvolvedor Web (FrontEnd/BackEnd/FullStack). Além de JavaScript e C#, tenho experiência com Versionamento de Código e Containers Docker.</p>
+                <p>Olá. Meu nome é Islan Victhor, tenho 24 anos, sou estudande de Ciência da Computação. Atualmente estou à procura de Estágio como Desenvolvedor Web (FrontEnd/BackEnd/FullStack). Além de <strong>JavaScript</strong> e <strong>C#</strong>, tenho experiência com <strong>Versionamento de Código</strong> e <strong>Containers Docker</strong>.</p>
             </section>
-            <section class="mt-2">
+            <section class="mt-4">
+                <h2 class="text-2xl font-semibold">Habilidades e Conhecimentos</h2>
+                <p>Estas são as habilidades que domino e agarantio.</p>
+                <ul class="list-disc ml-4">
+                    <li>JavaScript</li>
+                    <li>Vue</li>
+                    <li>React</li>
+                    <li>jQuery</li>
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>C#</li>
+                    <li>Docker</li>
+                    <li>MySQL</li>
+                    <li>Git</li>
+                </ul>
+            </section>
+            <section class="mt-4">
                 <h2 class="text-2xl font-semibold">Projetos</h2>
                 <p>Projetos já realizados</p>
-                <ul></ul>
+                <ul class="list-disc ml-4">
+                    <li>
+                        <a href="https://github.com/Islan42/php-todo" class="text-blue-600">ToDo App (Fullstack)</a>
+                        <p>Desenvolvi um CRUD App para armazenar e mostrar listas de afazeres (ToDo). Utilizei <strong>PHP, Apache e MySQL</strong> no Back-End para desenvolver um CRUD de usuários e listas de afazeres, lidando também com Sessão e Autenticação. No Front-End utilizei <strong>React</strong> para a UI e <strong>TailwindCSS</strong> para a estilização. Por fim, fiz um grande uso de <strong>containers Docker</strong> para a infraestrutura do código. </p>
+                    </li>
+                </ul>
             </section>
         </main>
-        <footer class="bg-hotpink text-white p-2">
+        <footer class="bg-sky-400 text-white p-2">
             <h2 class="text-2xl font-semibold">Contatos Imediatos</h2>
             <ul>
                 <li>Email: <a href="mailto:islan12dev@hotmail.com">islan12dev@hotmail.com</a></li>
