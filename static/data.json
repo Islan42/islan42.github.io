@@ -18,6 +18,7 @@
             "nome": "API REST - CRUD Tarefas (BackEnd)",
             "descricao": "Desenvolvi uma API REST com CRUD de tarefas, utilizando Express, SQLite, e Autenticação JWT.",
             "url": "https://github.com/Islan42/TrilhaBackEndJR-JUN15",
+            "thumb": "api_rest_400.png",
             "habilidades": [
                 "javascript",
                 "express",
@@ -29,6 +30,7 @@
             "nome": "ToDo App (FullStack)",
             "descricao": "Desenvolvi um CRUD App para armazenar e mostrar listas de afazeres (ToDo). Utilizei PHP, Apache e MySQL no Back-End para desenvolver um CRUD de usuários e listas de afazeres, lidando também com Sessão e Autenticação. No Front-End utilizei React para a UI e TailwindCSS para a estilização. Por fim, fiz um grande uso de containers Docker para a infraestrutura do código.",
             "url": "https://github.com/Islan42/php-todo",
+            "thumb": "todo_list_400.png",
             "habilidades": [
                 "php",
                 "react",
@@ -38,11 +40,23 @@
             ]
         },
         {
-            "nome": "Minicode",
+            "nome": "Minicode (JavaScript)",
             "descricao": "Desenvolvi um minijogo web utilizando JavaScript.",
             "url": "https://islan42.github.io/minicode/",
+            "thumb": "minicode_400.png",
             "habilidades": [
                 "javascript"
+            ]
+        },
+        {
+            "nome": "Portfolio (FrontEnd)",
+            "descricao": "Esta página.",
+            "url": "",
+            "thumb": "portfolio_400.png",
+            "habilidades": [
+                "javascript",
+                "jquery",
+                "tailwindcss"
             ]
         }
     ]

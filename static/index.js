@@ -26,9 +26,10 @@ $.getJSON('static/data.json', function (data) {
     projetosUL.empty()
     $.each(data.projetos, function (index, projeto) {
         const projetoObjeto = $(`
-            <li><div>
-                <p class="text-blue-600"><a href="${projeto.url}" target="_blank">${projeto.nome}</a></p>
-                <p>${projeto.descricao}</p>
+            <li class="bg-gradient-to-b from-zinc-200 to-orange-200 hover:bg-gradient-to-br rounded-md  p-2"><div>
+                <img src="static/images/thumbs/${projeto.thumb}" class="mx-auto"></img>
+                <p class="text-blue-600 text-center font-semibold"><a href="${projeto.url}" target="_blank">${projeto.nome}</a></p>
+                <p class="text-justify">${projeto.descricao}</p>
                 <ul id="projeto-${index}-habilidades" class="flex justify-center items-center space-x-1  my-2 min-h-24">
                 </ul>
             </div></li>
