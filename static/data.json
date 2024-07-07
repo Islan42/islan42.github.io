@@ -1,28 +1,40 @@
 {
     "habilidades": [
-        "javascript_256.webp",
-        "express_256.webp",
-        "vue_256.webp",
-        "react_256.webp",
-        "jquery_256.webp",
-        "php_256.webp",
-        "python_256.webp",
-        "csharp_256.webp",
-        "docker_256.webp",
-        "sql_256.webp",
-        "git_256.webp",
-        "swagger_256.webp"
+        "javascript",
+        "express",
+        "vue",
+        "react",
+        "jquery",
+        "tailwindcss",
+        "php",
+        "python",
+        "csharp",
+        "docker",
+        "sql",
+        "swagger",
+        "git"
     ],
     "projetos": [
         {
-            "nome": "ToDo App (Fullstack)",
-            "descricao": "Desenvolvi um CRUD App para armazenar e mostrar listas de afazeres (ToDo). Utilizei PHP, Apache e MySQL no Back-End para desenvolver um CRUD de usuários e listas de afazeres, lidando também com Sessão e Autenticação. No Front-End utilizei React para a UI e TailwindCSS para a estilização. Por fim, fiz um grande uso de containers Docker para a infraestrutura do código.",
-            "url": "https://github.com/Islan42/php-todo"
+            "nome": "API REST - CRUD Tarefas (Back-End)",
+            "descricao": "Desenvolvi uma API CRUD de tarefas, utilizando Express, SQLite, e Autenticação JWT.",
+            "url": "https://github.com/Islan42/TrilhaBackEndJR-JUN15",
+            "habilidades": [
+                "javascript",
+                "express",
+                "sql",
+                "swagger"
+            ]
         },
         {
-            "nome": "API REST - CRUD Tarefas (Back-End)",
-            "descricao": "Desenvolvi uma API CRUD de tarefas, utilizando Express, SQLite, e Autenticação JWT",
-            "url": "https://github.com/Islan42/TrilhaBackEndJR-JUN15"
+            "nome": "ToDo App (Fullstack)",
+            "descricao": "Desenvolvi um CRUD App para armazenar e mostrar listas de afazeres (ToDo). Utilizei PHP, Apache e MySQL no Back-End para desenvolver um CRUD de usuários e listas de afazeres, lidando também com Sessão e Autenticação. No Front-End utilizei React para a UI e TailwindCSS para a estilização. Por fim, fiz um grande uso de containers Docker para a infraestrutura do código.",
+            "url": "https://github.com/Islan42/php-todo",
+            "habilidades": [
+                "php",
+                "tailwindcss",
+                "sql"
+            ]
         }
     ]
 }
