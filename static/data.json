@@ -11,13 +11,12 @@
         "csharp",
         "docker",
         "sql",
-        "swagger",
-        "git"
+        "swagger"
     ],
     "projetos": [
         {
-            "nome": "API REST - CRUD Tarefas (Back-End)",
-            "descricao": "Desenvolvi uma API CRUD de tarefas, utilizando Express, SQLite, e Autenticação JWT.",
+            "nome": "API REST - CRUD Tarefas (BackEnd)",
+            "descricao": "Desenvolvi uma API REST com CRUD de tarefas, utilizando Express, SQLite, e Autenticação JWT.",
             "url": "https://github.com/Islan42/TrilhaBackEndJR-JUN15",
             "habilidades": [
                 "javascript",
@@ -27,13 +26,22 @@
             ]
         },
         {
-            "nome": "ToDo App (Fullstack)",
+            "nome": "ToDo App (FullStack)",
             "descricao": "Desenvolvi um CRUD App para armazenar e mostrar listas de afazeres (ToDo). Utilizei PHP, Apache e MySQL no Back-End para desenvolver um CRUD de usuários e listas de afazeres, lidando também com Sessão e Autenticação. No Front-End utilizei React para a UI e TailwindCSS para a estilização. Por fim, fiz um grande uso de containers Docker para a infraestrutura do código.",
             "url": "https://github.com/Islan42/php-todo",
             "habilidades": [
                 "php",
+                "react",
                 "tailwindcss",
                 "sql"
+            ]
+        },
+        {
+            "nome": "Minicode",
+            "descricao": "Desenvolvi um minijogo web utilizando JavaScript.",
+            "url": "https://islan42.github.io/minicode/",
+            "habilidades": [
+                "javascript"
             ]
         }
     ]

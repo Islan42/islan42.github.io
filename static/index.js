@@ -5,7 +5,7 @@ $.getJSON('static/data.json', function (data) {
     habilidadesUL.empty()
     $.each(data.habilidades, function (index, habilidade) {
         habilidadesUL.append(`
-            <li><img src="static/images/icons/${habilidade}_256.webp" class="w-12 hover:w-16"></img></li>
+            <li class="my-2"><img src="static/images/icons/${habilidade}_256.webp" class="w-12 hover:w-16"></img></li>
         `)
     })
 
