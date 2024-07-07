@@ -3,6 +3,8 @@ const projetosUL = $('#projetosList')
 
 let toggle = ''
 
+naoHaNadaProjetos(-1)
+
 $.getJSON('static/data.json', function (data) {
     habilidadesUL.empty()
     $.each(data.habilidades, function (index, habilidade) {
@@ -43,16 +45,29 @@ $.getJSON('static/data.json', function (data) {
 })
 
 function filtrarPorHabilidade(habilidade, sentido = '') {
+    let hidden = 0
+
     $.each(projetosUL.children().toArray(), function (i, projeto) {
         $(projeto).removeClass('hidden')
         
         if (sentido !== 'invertido') {
             if (! $(projeto).hasClass(habilidade)) {
                 $(projeto).addClass('hidden')
+                hidden++
             }
             toggle = habilidade
         } else {
             toggle = ''
         }
     })
+    naoHaNadaProjetos(hidden)
+}
+
+function naoHaNadaProjetos (hidden) {
+    // console.log(projetosUL.children().length)
+    if (projetosUL.children().length === hidden) {
+        $('#naoHaNadaProjetos').removeClass('hidden')
+    } else {
+        $('#naoHaNadaProjetos').addClass('hidden')
+    }
 }

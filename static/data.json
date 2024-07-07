@@ -33,7 +33,8 @@
                 "php",
                 "react",
                 "tailwindcss",
-                "sql"
+                "sql",
+                "docker"
             ]
         },
         {
