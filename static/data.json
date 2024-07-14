@@ -16,7 +16,7 @@
     "projetos": [
         {
             "nome": "API REST - CRUD Tarefas (BackEnd)",
-            "descricao": "Desenvolvi uma API REST com CRUD de tarefas, utilizando Express, SQLite, e Autenticação JWT.",
+            "descricao": "Desenvolvi uma API REST com CRUD de tarefas, utilizando Express, SQLite como parte de um desafio proposto pelo Código Certo. Além disso, utilizei JWT para autenticação e proteção de rotas e Swagger para documentação da API.",
             "url": "https://github.com/Islan42/TrilhaBackEndJR-JUN15",
             "thumb": "api_rest_400.png",
             "habilidades": [
@@ -40,6 +40,17 @@
             ]
         },
         {
+            "nome": "Estrutura de Dados - Resumo",
+            "descricao": "Desenvolvi uma simples página Web com o objetivo de demontrar e pôr em prática o conhecimento obtido do livro \"Estruturas de Dados e Algoritmos com JavaScript\" de Loiane Groner.",
+            "url": "",
+            "thumb": "abc.png",
+            "habilidades": [
+                "javascript",
+                "jquery",
+                "tailwindcss"
+            ]
+        },
+        {
             "nome": "Minicode (JavaScript)",
             "descricao": "Desenvolvi um minijogo web utilizando JavaScript.",
             "url": "https://islan42.github.io/minicode/",
@@ -50,7 +61,7 @@
         },
         {
             "nome": "Portfolio (FrontEnd)",
-            "descricao": "Esta página.",
+            "descricao": "Desenvolvi uma página simples com o resumo de meus principais projetos acadêmicos. É esta página.",
             "url": "",
             "thumb": "portfolio_400.png",
             "habilidades": [
