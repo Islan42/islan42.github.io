@@ -42,8 +42,8 @@
         {
             "nome": "Estrutura de Dados - Resumo",
             "descricao": "Desenvolvi uma simples página Web com o objetivo de demontrar e pôr em prática o conhecimento obtido do livro \"Estruturas de Dados e Algoritmos com JavaScript\" de Loiane Groner.",
-            "url": "",
-            "thumb": "abc.png",
+            "url": "https://islan42.github.io/Estruturas-de-Dados/",
+            "thumb": "estruturas_400.png",
             "habilidades": [
                 "javascript",
                 "jquery",
